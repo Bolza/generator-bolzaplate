@@ -43,15 +43,18 @@ var basicInjector = function(devDep) {
     }
     var js = args.stubs ? [].concat(config.js, config.stubsjs) : config.js;
     var templateCache = config.temp + config.templateCache.file;
-    var uikitComponents = config.uikitComponents;
     var wiredep = require('wiredep').stream;
     return lazypipe()
         .pipe(inject, config.css)
         .pipe(wiredep, options)
-        .pipe(inject, uikitComponents, 'uikit')
         .pipe(inject, templateCache, 'templates')
         .pipe(inject, js, '', config.jsOrder);
 };
+
+gulp.task('config', ['template-config-files'], function () {
+
+});
+
 
 gulp.task('default', ['config', 'compile-css', 'templatecache'], function() {
     var fileInject = basicInjector();
