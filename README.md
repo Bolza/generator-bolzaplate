@@ -1,5 +1,8 @@
-# generator-bolzaplate [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Angular project boilerplate generator by Bolza
+# generator-bolzaplate [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
+Angular 1.4 boilerplate generator by Bolza
+
+Inspired by John Papa's [HotTowel](https://github.com/johnpapa/generator-hottowel)
 
 ## Installation
 
