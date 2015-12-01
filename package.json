@@ -1,6 +1,6 @@
 {
   "name": "generator-bolzaplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Angular project boilerplate generator by Bolza",
   "homepage": "www.ilbolza.com",
   "author": {
@@ -13,7 +13,9 @@
   ],
   "main": "app/index.js",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "angularjs",
+    "gulp"
   ],
   "dependencies": {
     "yeoman-generator": "^0.21.1",

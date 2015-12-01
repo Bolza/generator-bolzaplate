@@ -2,7 +2,6 @@
     'use strict';
 
     angular.module('app', [
-        'envConfig',
         'app.dashboard',
         'ui.router'
     ])
