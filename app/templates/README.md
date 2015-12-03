@@ -1,4 +1,4 @@
-# Bullseye UI :dart:
+# <%= appName %>
 
 
 
